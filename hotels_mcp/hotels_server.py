@@ -181,7 +181,7 @@ async def get_hotels(destination_id: str, checkin_date: str, checkout_date: str,
                 f"Rating: {hotel.get('review_score', 'N/A')}/10\n"
                 f"Address: {hotel.get('address', 'N/A')}\n"
                 f"Price: {price_display}\n"
-                f"Coordinates: {hotel.get('latitude', 'N/A')}, {hotel.get('longitude', 'N/A')}\n"
+                f"Map: https://www.google.com/maps?q={hotel.get('latitude','')},{hotel.get('longitude','')}\n"
                 f"Stars: {hotel.get('class', 'N/A')}\n"
                 f"URL: {final_url}\n"
                 f"Image: {main_image}\n"
