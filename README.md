@@ -115,7 +115,3 @@ This opens an interactive UI where you can:
 - `hotels_mcp/`: The core MCP implementation
   - `__init__.py`: Package initialization
   - `hotels_server.py`: MCP server implementation with tool definitions
-
-## License
-
-MIT © Esa Krissa 2025
